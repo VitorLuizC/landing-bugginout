@@ -26,6 +26,7 @@
   }
 
   .app-header > .wrapper {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,8 +35,10 @@
   }
 
   .app-header > .wrapper > .logo {
+    position: absolute;
+    top: 22px;
+    left: 0;
     display: block;
-    margin-top: 22px;
   }
 
   .app-header > .wrapper > .menu { margin-left: auto; }
