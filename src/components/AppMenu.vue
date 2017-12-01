@@ -39,40 +39,37 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   .app-menu > .items {
     list-style: none;
     display: flex;
     flex-direction: column;
   }
 
-  .app-menu > .items > .item { color: #fff; }
-
-  @media screen and (min-width: 769px) {
+  @media screen and (max-width: 768px) {
     .app-menu {
       position: absolute;
       top: 0;
-
     }
   }
 
   @media screen and (min-width: 769px) {
-    .app-menu {
-      height: 100%;
-    }
-
     .app-menu > .items {
       flex-direction: row;
-    }
+      margin: 0;
+      padding: 0;
 
-    .app-menu > .items > .item {
-      color: #fff;
-      margin-right: 15px;
-      margin-left: 15px;
-    }
+      & > .item {
+        height: 120px;
+        margin-right: 15px;
+        margin-left: 15px;
 
-    .app-menu > .items > .item {
-
+        & > .link {
+          line-height: 120px;
+          font-size: 2.25em;
+          color: #fff;
+        }
+      }
     }
   }
 </style>

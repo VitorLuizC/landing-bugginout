@@ -29,7 +29,6 @@
     height: 80px;
     border: 0 none transparent;
     border-radius: 20px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 2.25em;
     letter-spacing: -1.3px;
