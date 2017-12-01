@@ -1,0 +1,19 @@
+{
+  "name": "landing-page-bugginout",
+  "version": "0.1.0",
+  "description": "Landing page para o jogo Buggin'Out!",
+  "main": "src/index.pug",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "poi src/index.js",
+    "build": "poi build src/index.js"
+  },
+  "author": "Vitor Cavalcanti",
+  "license": "MIT",
+  "devDependencies": {
+    "poi": "^9.5.5"
+  },
+  "dependencies": {
+    "vue": "^2.5.9"
+  }
+}

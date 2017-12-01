@@ -1,0 +1,8 @@
+# Módulos do Node.js
+node_modules/
+
+# Arquivos de distribuição
+dist/
+
+# Others
+.DS_Store
