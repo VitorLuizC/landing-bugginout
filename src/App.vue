@@ -1,7 +1,9 @@
 <template>
   <main class="main-container">
     <app-header class="header" />
-    <app-section class="section" />
+    <app-section id="game" class="section" />
+    <app-section id="history" class="section" />
+    <app-section id="screenshots" class="section" />
   </main>
 </template>
 
